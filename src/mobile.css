@@ -1,0 +1,475 @@
+@media screen and (max-width: 425px) {
+
+/*HEADER*/
+
+header {
+  width: 100%;
+  height: 16vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+header .innerheader {
+  width: 90%;
+  height: 58%;
+  background-color: #fff;
+  border-radius: 16px;
+  display: flex;
+  border: 1px solid #222;
+  box-shadow: 2px 2px 1px #222;
+  align-items: center;
+  justify-content: center;
+}
+
+header .mobile-menu-wrap {
+    width: 100%;
+    height: 600px;
+    background-color: #fff;
+    position: absolute;
+    top: 100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.mobile-menu-wrap ul {
+    width: 90%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    border-bottom: 1px solid #222;
+}
+
+.mobile-menu-wrap ul li {
+    padding-bottom: 2rem;
+}
+
+.mobile-menu-wrap ul li a {
+    text-decoration: none;
+    font-size: 26px;
+    color: #000;
+}
+
+.mobile-menu-wrap ul p {
+    padding-bottom: 1rem;
+    font-size: 26px;
+}
+
+
+.innerheader .logowrap {
+  width: 70%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.innerheader .logowrap h1 a {
+  text-decoration: none;
+  color: #222;
+  font-size: 25px;
+  padding-bottom: 12px;
+}
+
+.innerheader nav {
+  display: none;
+}
+
+.innerheader .accountwrap {
+  display: none;
+}
+
+
+.innerheader .menuwrap {
+  width: 25%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.innerheader .menuwrap p {
+  color: #222;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.innerheader .menuwrap p:hover {
+  color: royalblue;
+}
+
+
+
+/*INDEX*/
+.indexwrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/*ADS VIEW*/
+
+.indexwrap .ads-view-wrap {
+  display: none;
+}
+
+/*SIDEBAR VIEW*/
+.indexwrap .sidebar-view-wrap {
+  display: none;
+}
+
+
+/*MAIN VIEW*/
+.indexwrap .main-view-wrap {
+  width: 95%;
+  height: 100%;
+}
+
+
+
+.main-view-wrap .first-post-wrap {
+  width: 98%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.main-view-wrap .first-post-wrap .first-post-card {
+  width: 100%;
+  height: 560px;
+  cursor: pointer;
+  transition: .2s ease-out;
+}
+
+.main-view-wrap .first-post-wrap .first-post-card:hover {
+  opacity: .7;
+}
+
+ .first-post-card .card-img {
+  width: 100%;
+  height: 55%;
+ }
+
+ .first-post-card .card-img img {
+  width: 100%;
+  height: 94%;
+  border-radius: 16px;
+ }
+
+ .first-post-card .card-content {
+  width: 100%;
+  height: 44%;
+  text-transform: capitalize;
+ }
+
+ .first-post-card .card-content span {
+  text-transform: capitalize;
+  font-weight: 100;
+  font-size: 17px;
+ }
+
+  .first-post-card .card-content h2 {
+  width: 95%;
+  font-size: 30px;
+  font-weight: 800;
+ }
+
+  .first-post-card .card-content p {
+    font-size: 12px;
+ }
+
+
+/*FIRST FIVE POST*/
+.main-view-wrap .first-post-wrap .firstFive-post-wrap{
+  width: 97%;
+  margin-bottom: 0;
+}
+
+
+.firstFive-post-wrap .postcard{
+  width: 98%;
+  height: 23%;
+}
+
+.firstFive-post-wrap .postcard:hover {
+  opacity: .7;
+}
+
+.firstFive-post-wrap .postcard h2{
+  font-size: 22px;
+  width: 98%;
+  font-weight: 800;
+}
+
+.firstFive-post-wrap .postcard p{
+ text-transform: capitalize;
+ font-weight: 100;
+  font-size: 15px;
+}
+
+
+
+/*Second post*/
+.second-post-wrap {
+  width: 100%;
+  margin-top: 4px;
+  margin-bottom: 6px;
+  border-bottom: 1px solid #222;
+}
+
+.second-post-wrap h3 {
+  margin-top: 0px;
+  text-transform: capitalize;
+  margin-bottom: 26px;
+  font-weight: 200;
+  font-size: 23px;
+}
+
+.second-post-wrap .post-card {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  margin-bottom: 8px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.second-post-wrap .post-card .card-img {
+  width: 36%;
+  height: 80%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.second-post-wrap .post-card .card-img img {
+  width: 90%;
+  height: 80%;
+}
+
+.second-post-wrap .post-card .card-content {
+  width: 64%;
+  height: 80%;
+}
+
+.second-post-wrap .post-card .card-content span {
+  font-weight: 100;
+  font-size: 15px;
+}
+
+.second-post-wrap .post-card .card-content h2 {
+  font-size: 22px;
+  width: 95%;
+}
+
+.second-post-wrap .post-card .card-content p {
+  display: none;
+}
+
+
+/*Bridge wrap*/
+.bridge-wrap {
+  width: 100%;
+  height: 200px;
+}
+
+.bridge-wrap .bridge {
+  width: 98%;
+  height: 98%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+
+
+
+/*MAIN VIEW FOR PAGE*/
+.main-view-wrap .page-title-wrap {
+  width: 94%;
+  height: 156px;
+  padding-left: 12px;
+}
+
+.main-view-wrap .page-title-wrap h1 {
+  font-size: 25px;
+}
+
+.main-view-wrap .page-title-wrap p {
+  font-size: 16px;
+  padding-top: 4px;
+}
+
+.main-view-wrap .page-title-wrap span {
+  font-size: 13px;
+  padding-top: 4px;
+}
+
+
+
+
+/*MAIN VIEW FOR POST*/
+.post-view-wrap {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-bottom: 14px;
+}
+
+.main-view-wrap .related-h3 {
+  font-size: 23px;
+}
+
+.post-view-wrap .post-view-head {
+  width: 98%;
+  height: 70px;
+  padding-bottom: 8px;
+}
+
+.post-view-wrap .post-view-head h1 {
+  font-size: 25px;
+  width: 98%;
+}
+
+.post-view-wrap .post-view-head p{
+  font-size: 13px;
+  padding-left: 4px;
+}
+
+
+.post-view-wrap .post-view-image {
+    width: 100%;
+    height: 25%;
+    margin-bottom: 1rem;
+}
+
+.post-view-wrap .post-view-image img {
+  width: 98%;
+  height: 80%;
+}
+
+
+.post-view-wrap .post-view-content {
+  width: 97%;
+  height: 60%;
+  margin-bottom: 1rem;
+}
+
+.post-view-wrap .post-view-content h1, h2, h3, h4, h5, h6 {
+  padding-bottom: 16px;
+}
+
+.post-view-wrap .post-view-content h1 {
+  font-size: 25px;
+}
+
+.post-view-wrap .post-view-content h2 {
+  font-size: 24px;
+}
+
+.post-view-wrap .post-view-content h3 {
+  font-size: 22px;
+}
+
+.post-view-wrap .post-view-content h4 {
+  font-size: 20px;
+}
+
+.post-view-wrap .post-view-content h5 {
+  font-size: 18px;
+}
+
+.post-view-wrap .post-view-content p {
+  font-size: 16px;
+  width: 98%;
+  line-height: 28px;
+}
+
+
+
+
+/*RELATED POSTS*/
+.related-post-wrap {
+  width: 98%;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 49% 49%;
+  grid-template-rows: 48% 48%;
+  margin: 0 auto;
+}
+
+.related-post-wrap .related-card {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.related-post-wrap .related-card .card-img {
+  width: 100%;
+  height: 50%;
+}
+
+.related-card .card-img img {
+  width: 90%;
+  height: 94%;
+}
+
+.related-post-wrap .related-card .card-content {
+  width: 97%;
+  height: 50%;
+  text-transform: capitalize;
+}
+
+.related-post-wrap .related-card .card-content h3 {
+  font-size: 15px;
+  font-weight: 800;
+  width: 100%;
+}
+
+
+/*footer*/
+footer {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 90%;
+  grid-template-rows: 25% 25% 25% 25%;
+  justify-content: center;
+}
+
+footer div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 12px;
+}
+
+footer div a {
+  padding-bottom: 8px;
+  text-decoration: none;
+  color: #222;
+  font-weight: 200;
+  font-size: 18px;
+}
+
+footer div h3 {
+    padding-top: 1rem;
+}
+}
