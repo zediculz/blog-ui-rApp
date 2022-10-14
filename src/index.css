@@ -15,8 +15,8 @@ body {
   background-color: #fff;
 }
 
-/*HEADER*/
 
+/*HEADER*/
 header {
   width: 100%;
   height: 18vh;
@@ -26,13 +26,13 @@ header {
 }
 
 header .innerheader {
-  width: 84%;
-  height: 54%;
+  width: 82%;
+  height: 58%;
   background-color: #fff;
   border-radius: 16px;
   display: flex;
   border: 1px solid #222;
-  box-shadow: 2px 3px 1px #222;
+  box-shadow: 2px 4px 1px #222;
 }
 
 .innerheader .logowrap {
@@ -46,11 +46,21 @@ header .innerheader {
 .innerheader .logowrap h1 a {
   text-decoration: none;
   color: #222;
-  font-size: 30px;
+  font-size: 34px;
+  transition: .3s ease-in;
+}
+
+.innerheader .logowrap h1 a:hover {
+  color: #5e17eb;
 }
 
 .innerheader .logowrap h1 a span {
   color: #5e17eb;
+  transition: .3s ease-in;
+}
+
+.innerheader .logowrap h1 a span:hover {
+  color: #222;
 }
 
 .innerheader nav {
@@ -79,7 +89,7 @@ header .innerheader {
   padding-top: 8px;
   padding-bottom: 8px;
   border-radius: 12px;
-  font-weight: 500;
+  font-weight: 600;
   transition: .3s ease-in;
 }
 
@@ -105,6 +115,7 @@ header .innerheader {
   font-size: 20px;
   font-weight: bold;
   background-color: #fff;
+  transition: .3s ease-in;
 }
 
 .innerheader .accountwrap button:hover {
@@ -124,6 +135,7 @@ header .innerheader {
   font-size: 20px;
   font-weight: bold;
   background-color: #fff;
+  transition: .3s ease-in;
 }
 
 .innerheader .menuwrap button:hover {
@@ -141,8 +153,8 @@ header .innerheader {
 }
 
 
-/*ADS VIEW*/
 
+/*ADS VIEW*/
 .indexwrap .ads-view-wrap {
   width: 18%;
   height: fit-content;
@@ -159,7 +171,7 @@ header .innerheader {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid rgba(34, 34, 34, 0.1);
+  /*border: 1px solid rgba(34, 34, 34, 0.1);*/
   cursor: pointer;
   margin-bottom: 6rem;
   border-radius: 16px;
@@ -171,10 +183,11 @@ header .innerheader {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid rgba(34, 34, 34, 0.1);
+  /*border: 1px solid rgba(34, 34, 34, 0.1);*/
   cursor: pointer;
   margin-bottom: 6rem;
   border-radius: 16px;
+  /*box-shadow: 2px 4px 1px #222;*/
 }
 
 
@@ -199,10 +212,11 @@ header .innerheader {
 }
 
 .sidebar-view .tags-list p {
-  font-size: 28px;
+  font-size: 32px;
   font-size: bold;
   text-transform: capitalize;
-  padding-bottom: 8px;
+  padding-bottom: 12px;
+  padding-top: 4px;
   color: #222;
 }
 
@@ -216,9 +230,9 @@ header .innerheader {
   text-decoration: none;
   color: #222;
   font-weight: 100;
-  font-size: 24px;
-  transition: 0.3s ease-in;
-  padding: 2px;
+  font-size: 22px;
+  transition: .3s ease-in;
+  padding-top: 4px;
   padding-left: 0;
 }
 
@@ -246,7 +260,7 @@ header .innerheader {
   width: 58%;
   height: 100%;
   cursor: pointer;
-  transition: .2s ease-out;
+  transition: .4s ease-out;
 }
 
 .main-view-wrap .first-post-wrap .first-post-card:hover {
@@ -273,25 +287,30 @@ header .innerheader {
  .first-post-card .card-content span {
   text-transform: capitalize;
   font-weight: 100;
-  font-size: 20px;
+  font-size: 18px;
  }
 
   .first-post-card .card-content h2 {
   width: 90%;
   font-size: 32px;
   font-weight: 800;
+  transition: .4s ease-out;
  }
+
+  .first-post-card .card-content h2:hover {
+    color: #5e17eb;
+  }
 
   .first-post-card .card-content p {
     font-size: 16px;
     font-weight: 200;
-    line-height: 26px;
+    line-height: 24px;
  }
 
 
 /*FIRST FIVE POST*/
-.main-view-wrap .first-post-wrap .firstFive-post-wrap{
-  width: 36%;
+.main-view-wrap .first-post-wrap .firstFive-post-wrap {
+  width: 37%;
   height: 600px;
 }
 
@@ -304,17 +323,22 @@ header .innerheader {
   align-items: flex-start;
   cursor: pointer;
   justify-content: center;
-  transition: .3s ease-out;
+  transition: .4s ease-out;
 }
 
 .firstFive-post-wrap .postcard:hover {
   opacity: .7;
 }
 
-.firstFive-post-wrap .postcard h2{
+.firstFive-post-wrap .postcard h2 {
   font-size: 24px;
   width: 96%;
   font-weight: 800;
+  transition: .4s ease-out;
+}
+
+.firstFive-post-wrap .postcard h2:hover {
+  color: #5e17eb;
 }
 
 .firstFive-post-wrap .postcard p{
@@ -329,7 +353,6 @@ header .innerheader {
   width: 100%;
   margin-top: 18px;
   margin-bottom: 6px;
-  border-bottom: 1px solid #222;
 }
 
 .second-post-wrap h3 {
@@ -337,25 +360,36 @@ header .innerheader {
   text-transform: capitalize;
   margin-bottom: 26px;
   font-weight: 200;
-  font-size: 32px;
+  font-size: 30px;
 }
 
 .second-post-wrap .post-card {
   width: 100%;
   height: 300px;
   display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 18px;
   cursor: pointer;
+  border-bottom: 1px solid rgba(34, 34, 34, 0.3);
+  transition: .4s ease-out;
+}
+
+.second-post-wrap .post-card:hover {
+  opacity: .7;
 }
 
 .second-post-wrap .post-card .card-img {
   width: 40%;
   height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .second-post-wrap .post-card .card-img img {
-  width: 90%;
-  height: 90%;
+  width: 94%;
+  height: 82%;
   border-radius: 16px;
 }
 
@@ -371,12 +405,17 @@ header .innerheader {
 
 .second-post-wrap .post-card .card-content span {
   font-weight: 100;
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .second-post-wrap .post-card .card-content h2 {
   font-size: 30px;
   width: 98%;
+  transition: .4s ease-out;
+}
+
+.second-post-wrap .post-card .card-content h2:hover {
+  color: #5e17eb;
 }
 
 .second-post-wrap .post-card .card-content p {
@@ -400,7 +439,6 @@ header .innerheader {
   justify-content: center;
   cursor: pointer;
 }
-
 
 
 
@@ -453,34 +491,37 @@ header .innerheader {
 
 .post-view-wrap .post-view-head {
   width: 100%;
-  height: 20%;
+  height: 140px;
   text-transform: capitalize;
   padding-bottom: 12px;
 }
 
 .post-view-wrap .post-view-head h1 {
-  font-size: 36px;
-  width: 96%;
+  font-size: 35px;
+  width: 94%;
+  padding: 6px;
+  padding-left: 0;
   font-weight: 800;
 }
 
 .post-view-wrap .post-view-head p{
   font-size: 16px;
-  font-weight: 200;
+  font-weight: 400;
+  color: red;
 }
 
 
 .post-view-wrap .post-view-image {
   width: 100%;
-  height: 25%;
+  height: 600px;
   margin-bottom: 1rem;
 }
 
 .post-view-wrap .post-view-image img {
   width: 90%;
-  height: 100%;
+  height: 90%;
   cursor: pointer;
-  border-radius: 16px;
+  border-radius: 10px;
 }
 
 
@@ -496,36 +537,35 @@ header .innerheader {
 }
 
 .post-view-wrap .post-view-content h1 {
-  font-size: 32px;
+  font-size: 34px;
 }
 
 .post-view-wrap .post-view-content h2 {
-  font-size: 28px;
+  font-size: 30px;
 }
 
 .post-view-wrap .post-view-content h3 {
-  font-size: 24px;
+  font-size: 28px;
 }
 
 .post-view-wrap .post-view-content h4 {
-  font-size: 20px;
+  font-size: 26px;
 }
 
 .post-view-wrap .post-view-content h5 {
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .post-view-wrap .post-view-content p {
   padding-bottom: 14px;
   font-size: 20px;
   line-height: 32px;
-  padding-bottom: 16px;
 }
 
 
 /*RELATED POSTS*/
 .related-post-wrap {
-  width: 97%;
+  width: 94%;
   height: 700px;
   display: grid;
   grid-template-columns: 50% 50%;
@@ -544,21 +584,21 @@ header .innerheader {
 }
 
 .related-card .card-img img {
-  width: 88%;
+  width: 80%;
   height: 94%;
-  border-radius: 16px;
+  border-radius: 10px;
 }
 
 .related-post-wrap .related-card .card-content {
-  width: 90%;
+  width: 88%;
   height: 30%;
-  text-transform: capitalize;
 }
 
 .related-post-wrap .related-card .card-content h3 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 800;
-  width: 95%;
+  width: 94%;
+  text-transform: capitalize;
 }
 
 
@@ -585,4 +625,8 @@ footer div a {
   color: #222;
   font-weight: 200;
   font-size: 20px;
+}
+
+footer div a:hover {
+  color: #5e17eb; 
 }

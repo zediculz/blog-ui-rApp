@@ -35,8 +35,8 @@ function Footer() {
         <h3>Bullentin</h3>
         {posts.map((post, i) => {
           if (i === rand) {
-            const { title } = post
-            return (<Link key={rand} to='/'>{ title.rendered }</Link>  )
+            const { title, id } = post
+            return (<Link key={rand} to={`/post/${id}`}>{ title.rendered }</Link>  )
           }
         })}
         </div>

@@ -6,11 +6,10 @@ import { GoThreeBars, GoX } from 'react-icons/go'
 export default function Header() {
 
    const { loadAppHead } = useContext(AppContext)
+
    const [opened, setOpened] = useState(false)
 
-   const handleMenu = () => {
-      setOpened(!opened)
-   }
+   const handleMenu = () => setOpened(!opened)
 
    useEffect(() => {
       loadAppHead()

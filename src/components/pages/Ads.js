@@ -4,23 +4,23 @@ const Ads = () => {
   return (
       <section className='ads-view-wrap'>
           <div className='ads-view'>
-              <p>Advertise here</p>
+              <p></p>
           </div>
 
           <div className='ads-view-two'>
-              <p>Advertise 2 here</p>
+              <p></p>
           </div>
 
           <div className='ads-view'>
-              <p>Advertise here</p>
+              <p></p>
           </div>
 
           <div className='ads-view-two'>
-              <p>Advertise 2 here</p>
+              <p></p>
           </div>
           
           <div className='ads-view'>
-              <p>Advertise here</p>
+              <p></p>
           </div>
       </section>
   )
